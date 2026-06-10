@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey:            "AIzaSyDjtjV8j9GRSiT9fjR7cyRYPIFIzDmaZqM",
+  apiKey:            "AIzaSyDLXsOw_zBo-TohUQAHowpBtObJWvua14Q",
   authDomain:        "actuarial-portal.firebaseapp.com",
   projectId:         "actuarial-portal",
   storageBucket:     "actuarial-portal.firebasestorage.app",
