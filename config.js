@@ -1,13 +1,8 @@
-// ─────────────────────────────────────────────────────────────
-//  CHRIS & LOUISA TECH STORE  –  Firebase Configuration
-//  Same project as your actuarial portal, or create a new one
-// ─────────────────────────────────────────────────────────────
-
 const firebaseConfig = {
-  apiKey:            "PASTE_YOUR_API_KEY_HERE",
-  authDomain:        "PASTE_YOUR_AUTH_DOMAIN_HERE",
-  projectId:         "PASTE_YOUR_PROJECT_ID_HERE",
-  storageBucket:     "PASTE_YOUR_STORAGE_BUCKET_HERE",
-  messagingSenderId: "PASTE_YOUR_MESSAGING_SENDER_ID_HERE",
-  appId:             "PASTE_YOUR_APP_ID_HERE"
+  apiKey:            "AIzaSyDjtjV8j9GRSiT9fjR7cyRYPIFIzDmaZqM",
+  authDomain:        "actuarial-portal.firebaseapp.com",
+  projectId:         "actuarial-portal",
+  storageBucket:     "actuarial-portal.firebasestorage.app",
+  messagingSenderId: "885117965663",
+  appId:             "1:885117965663:web:f641beb6695370094d52ea"
 };
