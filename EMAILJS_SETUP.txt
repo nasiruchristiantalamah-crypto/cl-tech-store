@@ -1,0 +1,45 @@
+EMAILJS SECOND TEMPLATE SETUP
+==============================
+
+You need to create a SECOND template in EmailJS for customer receipts.
+
+1. Go to EmailJS → Email Templates → Create New Template
+2. Name it: customer_receipt
+
+SUBJECT:
+✅ Your Order {{order_id}} is Confirmed - Chris & Louisa Tech Store
+
+BODY:
+Dear {{customer_name}},
+
+Thank you for your order at Chris & Louisa Tech Store!
+
+ORDER RECEIPT
+=============
+Order ID: {{order_id}}
+
+Items Ordered:
+{{order_items}}
+
+Subtotal:     {{subtotal}}
+Delivery:     {{delivery_fee}}
+TOTAL:        {{total}}
+
+Delivery Method: {{delivery_type}}
+Delivery Address: {{customer_address}}
+
+We will contact you on {{customer_phone}} within 30 minutes to confirm your order.
+
+Questions? Contact us:
+📱 WhatsApp: +233 547 472 867
+📧 Email: nasiruchristiantalamah@gmail.com
+📍 Location: Shiashi, Accra, Ghana
+
+Thank you for shopping with us!
+
+Chris & Louisa Tech Store
+
+3. Set "To Email" to: {{to_email}}
+4. Set "From Name" to: Chris & Louisa Tech Store
+5. Save and note the Template ID (template_xxxxxxx)
+6. Update EMAILJS.customerTpl in app.js with the new Template ID
